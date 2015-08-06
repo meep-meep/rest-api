@@ -1,0 +1,30 @@
+{
+  "name": "mm-rest-api",
+  "version": "0.0.1",
+  "description": "REST API to interact with the meep-meep test runner",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/meep-meep/rest-api.git"
+  },
+  "keywords": [
+    "meep-meep"
+  ],
+  "author": "Joachim Revol-Tissot",
+  "license": "MIT",
+  "dependencies": {
+    "ejs": "^2.3.1",
+    "express": "^4.12.0",
+    "mm-assessments": "git://github.com/meep-meep/assessments.git",
+    "mm-platform-matcher": "git://github.com/meep-meep/platform-matcher.git",
+    "mm-tests-interface": "git://github.com/meep-meep/tests-interface.git",
+    "rsvp": "^3.0.17"
+  },
+  "bugs": {
+    "url": "https://github.com/meep-meep/rest-api/issues"
+  },
+  "homepage": "https://github.com/meep-meep/rest-api.git"
+}
