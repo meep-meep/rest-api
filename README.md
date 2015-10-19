@@ -32,6 +32,8 @@ json data about the assessment definition with the following syntax :
         ...
     ]
 
+## example
+
 If you want to create an assessment from the command line, you can use cUrl for instance as so :
 
     curl -X POST -H "application/json" -d "name=my-assessment&constraints=[[[\"test-tag1\", \"test-tag2\"],[\"platform-tag1\"]],[[\"test-tagA\"],[\"platform-tagA\"]]]" <your test server's URL>/api/assessments
