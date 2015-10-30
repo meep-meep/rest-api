@@ -1,6 +1,5 @@
 var path = require('path');
 
-var RSVP = require('rsvp');
 var express = require('express');
 
 var Assessments = require('mm-assessments');
